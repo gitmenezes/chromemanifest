@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,//Versão do manifest em 06/04/2022
+    "name": "ExtAMF",//Informe aqui o nome que deseja dar ao App
+    "version": "0.0.1",//Aqui é sua versão de compilação
+    "author": "Alexandre Menezes Ferreira",//Nome do Autor
+    "description":"Aprendizado em extensões Chrome",//Descrição do App
+        
+        "action": {
+          "default_icon": {              // opcional, ícones padrões do App
+            "16": "icon16.png",   //16x16
+            "24": "icon24.png",   // 24x24
+            "32": "icon32.png"    // 32x32
+          },
+          "default_title": "Click Me",   // Mostra um tooltip text para o usuário
+          "default_popup": "index.html"  // Página html que desejar abrir em um popup
+        }
+
+}
